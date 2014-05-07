@@ -32,7 +32,7 @@
 //http://tactitionprogramming.com/idaq.html
 //
 
-*********************************** SETUP ***************************************
+/*********************************** SETUP **************************************/
 //To use this sketch:
 //Purchase an RFduino device from rfduino.com and setup your arduino environment
 //according to the instructions at https://github.com/RFduino/RFduino/
