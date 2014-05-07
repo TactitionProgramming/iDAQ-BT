@@ -32,7 +32,7 @@
 //http://tactitionprogramming.com/idaq.html
 //
 
-
+*********************************** SETUP ***************************************
 //To use this sketch:
 //Purchase an RFduino device from rfduino.com and setup your arduino environment
 //according to the instructions at https://github.com/RFduino/RFduino/
@@ -42,8 +42,8 @@
 //You will also need a USB shield to program your device.
 //Once your computer is setup to work with the RFduino, upload this sketch
 //to your device. It will immediately begin transmitting analog data to
-//your iPad/iPhone. Use the BT-iDAQ App from Tactition Programming to monitor
-//this data and see your signal in real time!
+//your iPad/iPhone! Use the BT-iDAQ App from Tactition Programming to monitor
+//this data and see your signal in real time.
 
 //By default, this file is configured to sense on pin 4.
 //Connect your equipment to pin 4 and ground, and make sure you do not
@@ -57,7 +57,7 @@ int analogPin = 4; // you can adjust the pin used here
 
 void setup() {
   analogReference(ANALOGLEVEL);
-  RFduinoBLE.advertisementData = "BT_iDAQ"; //Adjust broadcast name here
+  RFduinoBLE.advertisementData = "iDAQ-BT"; //Adjust broadcast name here
   RFduinoBLE.begin();
   
 }
