@@ -10,5 +10,6 @@ For detailed instructions on setting up your development environement, and progr
 
 
 To use this sketch:
-Purchase an RFduino device from rfduino.com and setup your arduino environment according to the instructions at https://github.com/RFduino/RFduino/
+You must first purcahse an RFduino device from <a href="http://rfduino.com/"> rfduino.com</a>.
 Remember to get an appropriate power source with your order. The RFduinoruns well from a pair of AA batteries using their battery shield, or it can be powered by a 5V USB supply combined with the USB shield. You will also need a USB shield to program your device. Once your computer is setup to work with the RFduino, upload this sketch to your device. It will immediately begin transmitting analog data to your iPad! Use the BT-iDAQ App from Tactition Programming to monitor this data and see your signal in real time.
+
