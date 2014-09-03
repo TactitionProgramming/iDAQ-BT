@@ -58,7 +58,7 @@
 
 int analogPin = 4; // you can adjust the pin used here
 int analogValue;
-double average;
+unsigned long int average; // previous version used double (actually long) which will have lower precision in this case
 int averageCount;
 const int timeDelay = 50;//adjust delay in ms to change data rate
 
